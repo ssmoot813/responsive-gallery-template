@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Responsive Gallery Template</title>
+    <meta name="description" content="A free responsive image gallery template built with HTML, CSS, and JavaScript.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <p class="eyebrow">Free Template</p>
+            <h1>Free Responsive Gallery Template</h1>
+            <p class="intro">
+                A clean and beginner-friendly responsive image gallery built with HTML, CSS, and JavaScript.
+                Click any image to view it larger.
+            </p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="gallery-section" aria-labelledby="gallery-heading">
+            <h2 id="gallery-heading">Gallery</h2>
+            <div class="gallery" id="gallery"></div>
+        </section>
+    </main>
+
+    <dialog class="lightbox" id="lightbox" aria-labelledby="lightbox-title">
+        <button class="lightbox-close" id="closeLightbox" aria-label="Close image viewer">&times;</button>
+        <div class="lightbox-content">
+            <h3 id="lightbox-title" class="visually-hidden">Expanded gallery image</h3>
+            <img id="lightboxImage" src="" alt="">
+        </div>
+    </dialog>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
