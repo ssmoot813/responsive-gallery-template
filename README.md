@@ -1,3 +1,5 @@
+![Preview](preview.png)
+
 # Responsive Gallery Template (Free Version)
 
 A clean, beginner-friendly responsive image gallery built with HTML, CSS, and JavaScript.
